@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Navigation Drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="my_mail">shashisurpurv@gmail.com</string>
+
+    <string name="invalid_name">Invalid value</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_A_a_O2_Gradient">A-a O2 Gradient</string>
+    <string name="menu_Acute_Tubular_Necrosis">Acute Tubular Necrosis</string>
+
+    <string name="menu_BMI">Body Mass Index</string>
+    <string name="menu_BMS">Body Mass Surface Area</string>
+
+    <string name="bms_header">Body Mass Surface Area</string>
+    <string name="bms_weight">Weight</string>
+    <string name="bms_height">height</string>
+    <string name="bms_button">Calculate</string>
+    <string name="bms_result">Body Mass Surface Area = </string>
+
+    <string name="qt_header">Corrected QT Interval</string>
+    <string name="qt_heart_rate">Heart Rate</string>
+    <string name="qt_interval">QT Interval</string>
+    <string name="qt_result_title">Corrected QT Interval =</string>
+
+    <string name="cc_header">Creatinine Clearance</string>
+    <string name="cc_age">Age</string>
+    <string name="cc_weight">Weight</string>
+    <string name="cc_serum_creatinine">Serum Creatinine</string>
+    <string name="cc_result_title">Creatinine Clearance = </string>
+
+    <string name="oi_header">Oxygenation Index</string>
+    <string name="oi_fio2">FIO2</string>
+    <string name="oi_fio2_ext">%</string>
+    <string name="oi_mean_airway_pressure">Mean Airway Pressure</string>
+    <string name="oi_mean_airway_pressure_ext">cm H2O</string>
+    <string name="oi_po2">PO2(arterial)</string>
+    <string name="oi_po2_ext">mm hg</string>
+    <string name="oi_result_title">Oxygenation Index = </string>
+
+    <string name="fwd_header">Free Water Deficit</string>
+    <string name="fwd_current_Na">Current Na</string>
+    <string name="fwd_current_Na_ext">mg/dL</string>
+    <string name="fwd_idial_Na">Ideal Na</string>
+    <string name="fwd_ideal_Na_ext">mg/dL</string>
+    <string name="fwd_weight">Weight</string>
+    <string name="fwd_weight_ext">kg</string>
+    <string name="fwd_result_title">Free Water Deficit = </string>
+
+    <string name="pfr_header">Peak Expiratory Flow Rate</string>
+    <string name="pfr_age">Age</string>
+    <string name="pfr_age_ext">years</string>
+    <string name="pfr_height">Height</string>
+    <string name="pfr_height_ext">cm</string>
+    <string name="pfr_result_title">Peak Expiratory Flow Rate = </string>
+
+    <string name="fes_header">Fractional Excretion of Sodium</string>
+    <string name="fes_serum_na">Serum Na</string>
+    <string name="fes_common_ext">mmol/L</string>
+    <string name="fes_urine_na">Urine Na</string>
+    <string name="fes_serum_cr">Serum Cr</string>
+    <string name="fes_urine_cr">Urine Cr</string>
+    <string name="fes_result_title">Fractional Excretion of Sodium =</string>
+
+    <string name="calculation_button">Calculate</string>
+    <string name="home_second">Home Second</string>
+</resources>

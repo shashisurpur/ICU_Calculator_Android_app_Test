@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_A_a_O2_Gradient"
+            android:title="@string/menu_A_a_O2_Gradient" />
+        <item
+            android:id="@+id/nav_Acute_Tubular_Necrosis"
+            android:title="@string/menu_Acute_Tubular_Necrosis" />
+        <item
+            android:id="@+id/nav_Body_Mass_Index"
+            android:title="@string/menu_BMI" />
+
+        <item
+            android:id="@+id/nav_Body_Mass_Surface"
+            android:title="@string/menu_BMS" />
+
+        <item
+            android:id="@+id/nav_Corrected_QT_Interval"
+            android:title="Corrected QT Interval" />
+
+        <item
+            android:id="@+id/nav_Creatinine_Clearance"
+            android:title="Cratinine Clearance" />
+
+        <item
+            android:id="@+id/nav_Oxygenation_Index"
+            android:title="@string/oi_header" />
+
+        <item
+            android:id="@+id/nav_Free_Water_Deficit"
+            android:title="@string/fwd_header" />
+
+        <item
+            android:id="@+id/nav_Peak_Expiratory_Flow_Rate"
+            android:title="@string/pfr_header" />
+
+        <item
+            android:id="@+id/nav_Fractional_Excretion_Of_Sodium"
+            android:title="@string/fes_header" />
+
+    </group>
+</menu>

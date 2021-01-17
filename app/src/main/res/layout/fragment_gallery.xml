@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/parent_linear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/A_a_header"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/menu_A_a_O2_Gradient"
+                    android:textStyle="bold"
+                    android:textColor="@color/textColor"
+                    android:textSize="24sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Atmospheric Pressure"
+                    android:textColor="@color/textColor"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/atm_value"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="760"
+                    android:gravity="center_horizontal"
+                    android:textColor="#615F61"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/ext1"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="mmHg"
+                    android:textColor="@color/textColor"
+                    android:textSize="16sp"
+
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp">
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="PaO2 (arterial O2)"
+                    android:textColor="@color/textColor"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/pao2_value"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:hint="TextField"
+                    android:gravity="center_horizontal"
+                    android:inputType="number"
+                    android:textColor="@color/textColor"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/ext2"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="mmHg"
+                    android:textColor="@color/textColor"
+                    android:textSize="16sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp">
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="PaCO2 (arterial CO2)"
+                    android:textColor="@color/textColor"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/paco2_value"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:gravity="center_horizontal"
+                    android:hint="TextField"
+                    android:inputType="number"
+                    android:textColor="@color/textColor"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/ext3"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="mmHg"
+                    android:textColor="@color/textColor"
+                    android:textSize="16sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp">
+
+                <TextView
+                    android:id="@+id/text4"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Label/Fio2"
+                    android:textColor="@color/textColor"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/lable_value"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:gravity="center_horizontal"
+                    android:inputType="number"
+                    android:text="21"
+                    android:textColor="#615F61"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/ext4"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="%"
+                    android:textColor="@color/textColor"
+                    android:textSize="16sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp">
+
+                <TextView
+                    android:id="@+id/text5"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="H2O"
+                    android:textColor="@color/textColor"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/h2o_value"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:gravity="center_horizontal"
+                    android:inputType="number"
+                    android:text="47"
+                    android:textColor="#615F61"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/ext5"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="mmHg"
+                    android:textColor="@color/textColor"
+                    android:textSize="16sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp">
+
+                <TextView
+                    android:id="@+id/text6"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Age"
+                    android:textColor="@color/textColor"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/age_value"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:gravity="center_horizontal"
+                    android:hint="TextField"
+                    android:inputType="number"
+                    android:textColor="@color/textColor"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/ext6"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="years"
+                    android:textColor="@color/textColor"
+                    android:textSize="16sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/calculate_A_a_O2"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    android:text="Calculate"
+                    android:textColor="@color/tabTextColor" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:id="@+id/text7"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:text="A-a O2 Gradient ="
+                    android:textColor="@color/textColor"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/result"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:textColor="@color/textColor"
+                    android:textSize="16sp"
+                    android:visibility="invisible" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp">
+
+                <TextView
+                    android:id="@+id/text8"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textColor"
+                    android:text="Expected A-a O2 Gradient ="
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/ex_result"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/textColor"
+                    android:visibility="invisible" />
+            </TableRow>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/textColor"
+                    android:textAllCaps="true"
+                    android:text="Formula"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/textColor"
+                    android:textAllCaps="true"
+                    android:text="Formula"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+</LinearLayout>

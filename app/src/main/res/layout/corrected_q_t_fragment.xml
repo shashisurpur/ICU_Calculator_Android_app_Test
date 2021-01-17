@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/correctedqt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".ui.correctedqt.CorrectedQTFragment"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:orientation="vertical">
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/qt_header"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/textColor"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp">
+                <TextView
+                    android:id="@+id/qt_heart_rate"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="@string/qt_heart_rate"
+                    android:textColor="@color/textColor"
+                    android:textStyle="bold"
+                    />
+                <EditText
+                    android:id="@+id/qt_heart_rate_value"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:hint="TextField"
+                    android:layout_marginLeft="16dp"
+                    android:textColor="@color/textColor"
+                    android:inputType="number"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:id="@+id/qt_BPM"
+                    android:layout_marginLeft="16dp"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="BPM"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@color/textColor"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp">
+                <TextView
+                    android:id="@+id/qt_interval"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="@string/qt_interval"
+                    android:textStyle="bold"
+                    android:textColor="@color/textColor"
+                    />
+                <EditText
+                    android:id="@+id/qt_interval_value"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:hint="TextField"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="16dp"
+                    android:textColor="@color/textColor"
+                    android:inputType="number"
+                    />
+                <TextView
+                    android:id="@+id/qt_mSec"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/textColor"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="16dp"
+                    android:text="mSec"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="30dp">
+                <Button
+                    android:id="@+id/qt_calculate"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    android:text="@string/calculation_button"
+                    android:textColor="@color/tabTextColor" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:id="@+id/qt_text"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="@string/qt_result_title"
+                    android:textStyle="bold"
+                    android:textColor="@color/textColor"
+                    />
+                <EditText
+                    android:id="@+id/qt_result"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:textColor="@color/textColor"
+                    android:textSize="16sp"
+                    android:visibility="invisible"/>
+
+            </TableRow>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

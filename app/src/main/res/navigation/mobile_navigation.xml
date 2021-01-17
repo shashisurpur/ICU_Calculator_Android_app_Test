@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.navigationdrawer.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
+            app:destination="@id/nav_home" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_A_a_O2_Gradient"
+        android:name="com.example.navigationdrawer.ui.gallery.GalleryFragment"
+        android:label="@string/menu_A_a_O2_Gradient"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_Acute_Tubular_Necrosis"
+        android:name="com.example.navigationdrawer.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_Acute_Tubular_Necrosis"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_Body_Mass_Index"
+        android:name="com.example.navigationdrawer.ui.mainbmi.MainBMIFragment"
+        android:label="@string/menu_BMI"
+        tools:layout="@layout/main_b_m_i_fragment" />
+
+    <fragment
+        android:id="@+id/nav_Body_Mass_Surface"
+        android:name="com.example.navigationdrawer.ui.bms.BMSFragment"
+        android:label="@string/menu_BMS"
+        tools:layout="@layout/b_m_s_fragment" />
+
+    <fragment
+        android:id="@+id/nav_Corrected_QT_Interval"
+        android:name="com.example.navigationdrawer.ui.correctedqt.CorrectedQTFragment"
+        android:label="Corrected QT Interval"
+        tools:layout="@layout/corrected_q_t_fragment" />
+
+    <fragment
+        android:id="@+id/nav_Creatinine_Clearance"
+        android:name="com.example.navigationdrawer.ui.creatinineclearance.CreatinineClearanceFragment"
+        android:label="Creatinine Clearance"
+        tools:layout="@layout/creatinine_clearance_fragment" />
+
+    <fragment
+        android:id="@+id/nav_Oxygenation_Index"
+        android:name="com.example.navigationdrawer.ui.oxygenationindex.OxygenationIndexFragment"
+        android:label="@string/oi_header"
+        tools:layout="@layout/oxygenation_index_fragment" />
+
+    <fragment
+        android:id="@+id/nav_Free_Water_Deficit"
+        android:name="com.example.navigationdrawer.ui.freewaterdeficit.FreeWaterDeficitFragment"
+        android:label="@string/fwd_header"
+        tools:layout="@layout/free_water_deficit_fragment" />
+
+    <fragment
+        android:id="@+id/nav_Peak_Expiratory_Flow_Rate"
+        android:name="com.example.navigationdrawer.ui.peakexpiratoryflowrate.PeakExpiratoryFlowRateFragment"
+        android:label="@string/pfr_header"
+        tools:layout="@layout/peak_expiratory_flow_rate_fragment" />
+
+    <fragment
+        android:id="@+id/nav_Fractional_Excretion_Of_Sodium"
+        android:name="com.example.navigationdrawer.ui.fractionalexcretionofsodium.FractionalExcretionOfSodiumFragment"
+        android:label="@string/fes_header"
+        tools:layout="@layout/fractional_excretion_of_sodium_fragment" />
+
+</navigation>
